@@ -1,0 +1,20 @@
+[App User]-(Login)
+[App User]-(Logout)
+[Cms Admin]-[User]
+[App User]- [User]
+[Agent] - [User]
+(Login)<(Request Password Reset)
+(Login)<(Register)
+(Register)>(Confirm Email)
+[App User] - (Full Text Search Docs)
+(Full Text Search Docs) > (Download Docs)
+(Full Text Search Docs) > (Preview Doc)
+[App User] - (Browse Docs)
+(Browse Docs) > (Preview Doc)
+[App User] - (View Events)
+[App User] - (Upload Docs)
+(Upload Docs) < (Manage Folders)
+[Site Manager] - (Upload Docs)
+[Site Manager] - (Post New Event To The Web Site)
+[Site Manager] - (Add User)
+(Add User) < (Add Company)
