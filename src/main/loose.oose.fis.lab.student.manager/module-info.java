@@ -1,6 +1,8 @@
 module com.example.studentmanager {
     requires javafx.controls;
     requires javafx.fxml;
+    requires rt;
+    requires jfxrt;
 
 
     opens com.example.studentmanager to javafx.fxml;
